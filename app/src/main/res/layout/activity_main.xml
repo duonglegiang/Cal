@@ -19,6 +19,7 @@
             android:gravity="right"
             android:paddingTop="5sp"
             android:paddingRight="10sp"
+            android:fontFamily="@font/digital"
             android:textSize="15pt"
             android:textStyle="bold" />
 
@@ -27,7 +28,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.50"
+            android:fontFamily="@font/digital"
             android:gravity="right"
+
             android:paddingTop="5sp"
             android:paddingRight="10sp"
             android:textSize="15pt"
@@ -42,41 +45,41 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnPt"
+            android:id="@+id/btnCE"
             android:layout_width="140dp"
             android:layout_height="75dp"
             android:layout_weight=".51"
-            android:text="%"
+            android:text="CE"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnSqrt"
+            android:id="@+id/btnC"
             android:layout_width="140dp"
             android:layout_height="75dp"
             android:layout_weight=".51"
-            android:text="√"
+            android:text="C"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnSqr"
+            android:id="@+id/btnBS"
             android:layout_width="140dp"
             android:layout_height="75dp"
             android:layout_weight=".51"
-            android:text="x²"
+            android:text="BS"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnDel"
+            android:id="@+id/btnDevide"
             android:layout_width="140dp"
             android:layout_height="75dp"
             android:layout_weight=".51"
-            android:text="del"
+            android:text="/"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -120,11 +123,11 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnDivide"
+            android:id="@+id/btnMulti"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="/"
+            android:text="x"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -168,11 +171,11 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnMulti"
+            android:id="@+id/btnSub"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="x"
+            android:text="-"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -216,11 +219,11 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnSub"
+            android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="-"
+            android:text="+"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -234,11 +237,11 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/btnDecimal"
+            android:id="@+id/btn_"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="."
+            android:text="+/-"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -254,22 +257,22 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnEquals"
+            android:id="@+id/btnDecimal"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="="
+            android:text="."
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/btnAdd"
+            android:id="@+id/btnEquals"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
             android:layout_weight="1"
-            android:text="+"
+            android:text="="
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="40sp"
             android:textStyle="bold" />

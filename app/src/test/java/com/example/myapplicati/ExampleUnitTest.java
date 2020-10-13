@@ -1,4 +1,4 @@
-package com.example.cal;
+package com.example.myapplicati;
 
 import org.junit.Test;
 
